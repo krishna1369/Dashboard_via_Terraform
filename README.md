@@ -71,12 +71,6 @@ This directory contains Terraform configuration to deploy a New Relic dashboard 
 
 ### Terraform Commands
 
-Here is your text **correctly formatted for Markdown**, with each command clearly separated into its own fenced `bash` code block.
-
----
-
-### **Terraform Commands (Correct `.md` Formatting)**
-
 #### **1️⃣ Initialize Terraform**
 
 Initializes the working directory.
