@@ -49,8 +49,8 @@ You need the following values:
 - **Terraform**  
 - **Git**  
 - **Text/code editor**
-
-
+  
+---
 
 ## 🚀 Stage 1: Terraform Setup
 
@@ -86,10 +86,7 @@ Initializes the working directory.
 ```bash
 terraform init
 ```
-
 ---
----
-
 #### **2️⃣ Preview the Execution Plan**
 
 Generates an execution plan so you can preview Terraform’s changes.
@@ -97,9 +94,7 @@ Generates an execution plan so you can preview Terraform’s changes.
 ```bash
 terraform plan
 ```
-
 ---
-
 #### **3️⃣ Apply Changes**
 
 Creates or updates resources based on your Terraform files.
@@ -107,7 +102,7 @@ Creates or updates resources based on your Terraform files.
 ```bash
 terraform apply
 ```
-
+---
 Terraform will show the execution plan and prompt you to continue.
 
 To proceed, type:
@@ -115,9 +110,7 @@ To proceed, type:
 ```bash
 yes
 ```
-
 ---
-
 #### **4️⃣ Destroy Resources**
 
 Destroys the resources managed by this Terraform configuration.
@@ -132,7 +125,6 @@ To confirm destruction, type:
 yes
 ```
 
----
 ---
 
 ## 📊 Stage 4: Validate Dashboard
@@ -155,9 +147,7 @@ Create a new Git repository in your project directory.
 ```bash
 git init
 ```
-
 ---
-
 ## 📁 **Step 2 — Add All Project Files**
 
 Stage your Terraform files, dashboard file, and docs.
@@ -165,9 +155,7 @@ Stage your Terraform files, dashboard file, and docs.
 ```bash
 git add .
 ```
-
 ---
-
 ## 💬 **Step 3 — Commit Your Changes**
 
 Create your first commit with a helpful message.
@@ -175,9 +163,7 @@ Create your first commit with a helpful message.
 ```bash
 git commit -m "Observability as Code"
 ```
-
 ---
-
 ## 🌐 **Step 4 — Add Remote Repository**
 
 Connect local project to a Git hosting service like GitHub, GitLab, or Azure repo.
@@ -185,9 +171,7 @@ Connect local project to a Git hosting service like GitHub, GitLab, or Azure rep
 ```bash
 git remote add origin https://github.com/your-username/your-repo-name.git
 ```
-
 ---
-
 ## 🚀 **Step 5 — Push to the Remote Repository**
 
 Push local commits to the remote `main` branch.
@@ -197,7 +181,3 @@ git push -u origin main
 ```
 
 ---
-
-
-
-
