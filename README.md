@@ -70,10 +70,19 @@ This directory contains Terraform configuration to deploy a New Relic dashboard 
 ## Usage
 
 ### Terraform Commands
+Initializes your working directory for use with Terraform.
 ```bash
 terraform init
-terraform plan
-terraform apply
+
+Generates an execution plan so you can preview Terraform’s changes.
 ```bash
+terraform plan
+
+Creates or updates resources based on your Terraform files.
+```bash
+terraform apply
+
+Terraform will show you the execution plan & type for proceeding ```bash yes
+
 
 
