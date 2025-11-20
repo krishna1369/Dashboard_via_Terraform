@@ -70,21 +70,67 @@ This directory contains Terraform configuration to deploy a New Relic dashboard 
 ## Usage
 
 ### Terraform Commands
-Initializes your working directory for use with Terraform.
+
+Here is your text **correctly formatted for Markdown**, with each command clearly separated into its own fenced `bash` code block.
+
+---
+
+### **Terraform Commands (Correct `.md` Formatting)**
+
+#### **1️⃣ Initialize Terraform**
+
+Initializes the working directory.
+
 ```bash
 terraform init
+```
 
+---
 
+#### **2️⃣ Preview the Execution Plan**
 
 Generates an execution plan so you can preview Terraform’s changes.
+
 ```bash
 terraform plan
+```
+
+---
+
+#### **3️⃣ Apply Changes**
 
 Creates or updates resources based on your Terraform files.
+
 ```bash
 terraform apply
+```
 
-Terraform will show you the execution plan & type for proceeding ```bash yes
+Terraform will show the execution plan and prompt you to continue.
+
+To proceed, type:
+
+```bash
+yes
+```
+
+---
+
+#### **4️⃣ Destroy Resources**
+
+Destroys the resources managed by this Terraform configuration.
+
+```bash
+terraform destroy
+```
+
+To confirm destruction, type:
+
+```bash
+yes
+```
+
+---
+
 
 
 
