@@ -140,7 +140,7 @@ It includes the essential **Git commands**.
 
 ---
 
-## 📝 **Step 1 — Initialize a Git Repository**
+### **1️⃣ Initialize a Git Repository**
 
 Create a new Git repository in your project directory.
 
@@ -148,7 +148,7 @@ Create a new Git repository in your project directory.
 git init
 ```
 ---
-## 📁 **Step 2 — Add All Project Files**
+### **2️⃣ Add All Project Files**
 
 Stage your Terraform files, dashboard file, and docs.
 
@@ -156,7 +156,7 @@ Stage your Terraform files, dashboard file, and docs.
 git add .
 ```
 ---
-## 💬 **Step 3 — Commit Your Changes**
+### **3️⃣ Commit Your Changes**
 
 Create your first commit with a helpful message.
 
@@ -164,7 +164,7 @@ Create your first commit with a helpful message.
 git commit -m "Observability as Code"
 ```
 ---
-## 🌐 **Step 4 — Add Remote Repository**
+### **4️⃣ Add Remote Repository**
 
 Connect local project to a Git hosting service like GitHub, GitLab, or Azure repo.
 
@@ -172,7 +172,7 @@ Connect local project to a Git hosting service like GitHub, GitLab, or Azure rep
 git remote add origin https://github.com/your-username/your-repo-name.git
 ```
 ---
-## 🚀 **Step 5 — Push to the Remote Repository**
+### **5️⃣ Push to the Remote Repository**
 
 Push local commits to the remote `main` branch.
 
