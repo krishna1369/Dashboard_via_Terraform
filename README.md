@@ -1,38 +1,62 @@
-# Observability as Code
+# Observability as Code — Part 1 (Dashboards)
 
-This repository contains the configuration and required setup to implement Observability as Code using Terraform.
-The goal is to automate the deployment and management of observability components—such as dashboards, alerts, and integrations—through declarative code.
+This repository contains Terraform examples and workflow steps for implementing **Observability as Code** with New Relic, based on the official New Relic guide:  
+**“Automate your configuration with observability as code — Part One.”**
 
-## 📘 Overview
+The goal is to automate the creation of **New Relic Dashboards** using Terraform so they can be consistently deployed, version-controlled, and reproduced across environments.
 
-Observability as Code enables you to:
+---
 
-Automate observability resource creation
+## 📌 Table of Contents
 
-Maintain monitoring configurations in version control
+1. [Introduction](#introduction)  
+2. [Prerequisites](#prerequisites)  
+3. [Stage 1: Terraform Setup](#stage-1-terraform-setup)  
+4. [Stage 2: Provision Sample Application](#stage-2-provision-sample-application)  
+5. [Stage 3: Create Dashboard as Code](#stage-3-create-dashboard-as-code)  
+6. [Stage 4: Apply Terraform](#stage-4-apply-terraform)  
+7. [Stage 5: Cleanup](#stage-5-cleanup)  
+8. [Next Steps](#next-steps)
 
-Integrate observability into CI/CD workflows
+---
 
-Ensure consistency across environments
+## 📘 Introduction
 
-This project uses Terraform to interact with New Relic.
+**Observability as Code** allows you to automate the configuration of dashboards, alerts, monitors, and more using code.  
+This brings the same advantages as Infrastructure as Code:
 
-## 🔑 Prerequisites
+- Repeatability  
+- Version control  
+- Consistency across teams  
+- Git-based collaboration  
+- Zero manual UI configuration
 
-Before using this repository, ensure you have the following:
+This guide focuses on creating **New Relic dashboards via Terraform**.
 
-New Relic Account
+---
 
-New Relic API Key
+## 🧩 Prerequisites
 
-New Relic Region (US or EU)
+Before beginning, you must have:
 
-## 🧰 Required Software
+### 🔹 New Relic Account
+You need the following values:
 
-Install the following tools before proceeding:
+- **ACCOUNT ID**  
+- **USER API KEY** (starts with `NRAK-...`)  
+- **REGION** (US or EU)
 
-Terraform
+### 🔹 Installed Tools
+- **Terraform 1.x**  
+- **Git**  
+- **Text/code editor**
 
-Git
+### 🔹 Sample App (FoodMe)
+New Relic uses a Glitch-hosted demo app to generate telemetry.
 
-GitHub / GitLab / Azure Repos (any Git-based source code hosting platform)
+---
+
+## 🚀 Stage 1: Terraform Setup
+
+Create a directory structure:
+
