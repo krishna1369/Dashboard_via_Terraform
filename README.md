@@ -1,7 +1,7 @@
-# Observability as Code — Part 1 (Dashboards)
+# Observability as Code — Dashboards/Alerts
 
-This repository contains Terraform examples and workflow steps for implementing **Observability as Code** with New Relic, based on the official New Relic guide:  
-**“Automate your configuration with observability as code — Part One.”**
+This repository contains Terraform and workflow steps for implementing **Observability as Code** with New Relic:  
+**“Automate your configuration with observability as code.”**
 
 The goal is to automate the creation of **New Relic Dashboards** using Terraform so they can be consistently deployed, version-controlled, and reproduced across environments.
 
@@ -12,11 +12,9 @@ The goal is to automate the creation of **New Relic Dashboards** using Terraform
 1. [Introduction](#introduction)  
 2. [Prerequisites](#prerequisites)  
 3. [Stage 1: Terraform Setup](#stage-1-terraform-setup)  
-4. [Stage 2: Provision Sample Application](#stage-2-provision-sample-application)  
-5. [Stage 3: Create Dashboard as Code](#stage-3-create-dashboard-as-code)  
-6. [Stage 4: Apply Terraform](#stage-4-apply-terraform)  
-7. [Stage 5: Cleanup](#stage-5-cleanup)  
-8. [Next Steps](#next-steps)
+4. [Stage 2: Create Dashboard as Code](#stage-3-create-dashboard-as-code)  
+5. [Stage 3: Apply Terraform](#stage-4-apply-terraform)    
+6. [Stage 4: Vesion control](#stage-5-version-control)
 
 ---
 
@@ -47,16 +45,14 @@ You need the following values:
 - **REGION** (US or EU)
 
 ### 🔹 Installed Tools
-- **Terraform 1.x**  
+- **Terraform**  
 - **Git**  
 - **Text/code editor**
 
-### 🔹 Sample App (FoodMe)
-New Relic uses a Glitch-hosted demo app to generate telemetry.
 
----
 
 ## 🚀 Stage 1: Terraform Setup
 
 Create a directory structure:
+
 
