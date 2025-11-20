@@ -52,7 +52,7 @@ You need the following values:
   
 ---
 
-## 🚀 Stage 1: Terraform Setup
+## 💼 Stage 1: Terraform Setup
 
 This directory contains Terraform configuration to deploy a New Relic dashboard using JSON definitions.
 
