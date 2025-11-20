@@ -11,10 +11,11 @@ The goal is to automate the creation of **New Relic Dashboards** using Terraform
 
 1. [Introduction](#introduction)  
 2. [Prerequisites](#prerequisites)  
-3. [Stage 1: Terraform Setup](#stage-1-terraform-setup)  
-4. [Stage 2: Create Dashboard as Code](#stage-3-create-dashboard-as-code)  
-5. [Stage 3: Apply Terraform](#stage-4-apply-terraform)    
-6. [Stage 4: Vesion control](#stage-5-version-control)
+3. [Stage 1: Terraform Setup](#stage-1-terraform-setup)
+4. [Stage 2: Provision Sample Entity](#stage-2-provision-sample-entity)
+5. [Stage 3: Apply Terraform](#stage-3-apply-terraform) 
+6. [Stage 4: Validate Dashboard](#stage-4-Validate-dashboard)     
+7. [Stage 5: Version control](#stage-5-version-control)
 
 ---
 
@@ -53,8 +54,6 @@ You need the following values:
 
 ## 🚀 Stage 1: Terraform Setup
 
-Create a directory structure:
-
 This directory contains Terraform configuration to deploy a New Relic dashboard using JSON definitions.
 
 ## Files
@@ -67,7 +66,16 @@ This directory contains Terraform configuration to deploy a New Relic dashboard 
 | **dash_basic.tf** | Dashboard resource definition |
 | **dashboard.json** | JSON dashboard definition |
 
-## Usage
+---
+
+## 📝 Stage 2: Provision Sample Entity
+
+Here we are using Synthetic script as an entity for creating Synthetic dashbaord.
+
+---
+
+## 🚀 Stage 3: Apply Terraform
+
 
 ### Terraform Commands
 
@@ -79,6 +87,7 @@ Initializes the working directory.
 terraform init
 ```
 
+---
 ---
 
 #### **2️⃣ Preview the Execution Plan**
@@ -121,6 +130,70 @@ To confirm destruction, type:
 
 ```bash
 yes
+```
+
+---
+---
+
+## 📊 Stage 4: Validate Dashboard
+
+Log in to New Relic and confirm that the dashboard appears in your dashboard list.
+
+---
+
+## 🔄 Stage 5: Version Control
+
+Below is a clean, ready-to-use **Version Control section** for your *Observability as Code using New Relic* project.
+It includes the essential **Git commands**.
+
+---
+
+## 📝 **Step 1 — Initialize a Git Repository**
+
+Create a new Git repository in your project directory.
+
+```bash
+git init
+```
+
+---
+
+## 📁 **Step 2 — Add All Project Files**
+
+Stage your Terraform files, dashboard file, and docs.
+
+```bash
+git add .
+```
+
+---
+
+## 💬 **Step 3 — Commit Your Changes**
+
+Create your first commit with a helpful message.
+
+```bash
+git commit -m "Observability as Code"
+```
+
+---
+
+## 🌐 **Step 4 — Add Remote Repository**
+
+Connect local project to a Git hosting service like GitHub, GitLab, or Azure repo.
+
+```bash
+git remote add origin https://github.com/your-username/your-repo-name.git
+```
+
+---
+
+## 🚀 **Step 5 — Push to the Remote Repository**
+
+Push local commits to the remote `main` branch.
+
+```bash
+git push -u origin main
 ```
 
 ---
