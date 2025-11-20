@@ -11,11 +11,12 @@ The goal is to automate the creation of **New Relic Dashboards** using Terraform
 
 1. [Introduction](#introduction)  
 2. [Prerequisites](#prerequisites)  
-3. [Stage 1: Terraform Setup](#stage-1-terraform-setup)
-4. [Stage 2: Provision Sample Entity](#stage-2-provision-sample-entity)
-5. [Stage 3: Apply Terraform](#stage-3-apply-terraform) 
-6. [Stage 4: Validate Dashboard](#stage-4-validate-dashboard)     
-7. [Stage 5: Version control](#stage-5-version-control)
+3. [Stage 1 Terraform Setup](#stage-1-terraform-setup)  
+4. [Stage 2 Provision Sample Entity](#stage-2-provision-sample-entity)  
+5. [Stage 3 Apply Terraform](#stage-3-apply-terraform)  
+6. [Stage 4 Validate Dashboard](#stage-4-validate-dashboard)  
+7. [Stage 5 Version Control](#stage-5-version-control)
+
 
 ---
 
