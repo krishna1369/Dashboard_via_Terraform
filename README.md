@@ -1,6 +1,6 @@
 # Observability as Code — Dashboards/Alerts
 
-This repository contains Terraform and workflow steps for implementing **Observability as Code** with New Relic:  
+This repository contains Terraform and workflow stage for implementing **Observability as Code** with New Relic:  
 **“Automate your configuration with observability as code.”**
 
 The goal is to automate the creation of **New Relic Dashboards** using Terraform so they can be consistently deployed, version-controlled, and reproduced across environments.
