@@ -74,6 +74,8 @@ Initializes your working directory for use with Terraform.
 ```bash
 terraform init
 
+
+
 Generates an execution plan so you can preview Terraform’s changes.
 ```bash
 terraform plan
