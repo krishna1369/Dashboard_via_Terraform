@@ -55,4 +55,25 @@ You need the following values:
 
 Create a directory structure:
 
+This directory contains Terraform configuration to deploy a New Relic dashboard using JSON definitions.
+
+## Files
+
+| File | Purpose |
+|------|---------|
+| **main.tf** | Terraform config + loads dashboard.json |
+| **provider.tf** | Provider configuration (account ID, API key, region) |
+| **variables.tf** | Terraform input variables |
+| **dash_basic.tf** | Dashboard resource definition |
+| **dashboard.json** | JSON dashboard definition |
+
+## Usage
+
+### Terraform Commands
+```bash
+terraform init
+terraform plan
+terraform apply
+```bash
+
 
